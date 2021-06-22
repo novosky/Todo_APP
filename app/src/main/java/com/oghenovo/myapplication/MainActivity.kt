@@ -10,7 +10,7 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
-    val validUsername = "admin"
+    val validUsername = "Oghenovo"
     val validPassword = "admin"
 
 
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isValidCredentials(username:String, password: String): Boolean{
-        return (username == validUsername && password == validPassword)
+        return (password == validPassword)
 }
 
 }
